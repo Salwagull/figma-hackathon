@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,24 +19,24 @@ const Footer = () => {
           <h2 className="font-bold mb-1">About</h2>
           <ul>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 How it works
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Featured
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Partnership
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Business Relation
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -43,24 +44,24 @@ const Footer = () => {
           <h2 className="font-bold mb-1">Community</h2>
           <ul>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Events
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Podcast
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Invite a friend
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -68,24 +69,24 @@ const Footer = () => {
           <h2 className="font-bold mb-1">Socials</h2>
           <ul>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Discord
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Instagram
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Twitter
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Facebook
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -95,13 +96,13 @@ const Footer = () => {
         <div className="text-center lg:text-left mt-2">
           <p>© 2022 MORENT. All rights reserved</p>
         </div>
-        <div className="flex space-x-4 mt-2 lg:mt-0">
-          <a href="#" className="hover:underline">
+        <div className="flex space-x-4 mt-2 lg:mt-0">git init
+          <Link href="#" className="hover:underline">
             Privacy Policy
-          </a>
-          <a href="#" className="hover:underline">
+          </Link>
+          <Link href="#" className="hover:underline">
             Terms & Condition
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
